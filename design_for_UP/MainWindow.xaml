@@ -1,0 +1,49 @@
+﻿<Window x:Class="design_for_UP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Часы" Height="1050" Width="1458">
+    <Grid>
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Center">
+            <Rectangle Fill="#1F2937" HorizontalAlignment="Center" Width="1440" Margin="0,0,0,908" Height="100" VerticalAlignment="Bottom"/>
+            <Button Content="Файл"  FontSize="28" FontFamily="Source Sans Pro" Background="#1F2937" Foreground="#FFFFFF" Height="50" Width="135" Margin="15,25,1290,933" RenderTransformOrigin="0.756,0.68" x:Name="File_btn" Click="File_btn_Click"/>
+            <Button Content="О программе" FontSize="28" Background="#1F2937" Foreground="#FFFFFF" Height="50" Width="227" Margin="155,25,1058,933" RenderTransformOrigin="0.756,0.68" x:Name="File_btn_Копировать" Click="File_btn_Click"/>
+        </Grid>
+        <Grid>
+            <Rectangle Height="100" Fill="#E5E7EB" VerticalAlignment="Top" Margin="0,100,0,0" HorizontalAlignment="Center" Width="1440"/>
+            <Label Content="Часы реального времени с будильником на EEPROM" FontSize="32" Foreground="#000000" Margin="328,120,307,834"/>
+        </Grid>
+        <Grid>
+            <Rectangle HorizontalAlignment="Left" Margin="2,202,0,0" VerticalAlignment="Top" Fill="#000000" Stroke="#000000"  Width="718" Height="800" StrokeThickness="1">
+                <Rectangle.Effect>
+                    <DropShadowEffect BlurRadius="6" ShadowDepth="2" Color="Black"/>
+                </Rectangle.Effect>
+            </Rectangle>
+            <Rectangle HorizontalAlignment="Left" Margin="2,200,0,0" VerticalAlignment="Top" Fill="#FFFFFF" Width="720" Height="808"/>
+            <Rectangle HorizontalAlignment="Left" Height="120" Margin="29,296,0,0" Fill="#D9D9D9" RadiusX="30" RadiusY="30" VerticalAlignment="Top" Width="670"/>
+            <Label Content="Будильники:" Margin="29,220,1227,738" Width="202" FontSize="32"/>
+            <Rectangle HorizontalAlignment="Left" Height="120" Margin="29,436,0,0" Fill="#D9D9D9" RadiusX="30" RadiusY="30" VerticalAlignment="Top" Width="670"/>
+            <Rectangle HorizontalAlignment="Left" Height="120" Margin="29,576,0,0" Fill="#D9D9D9" RadiusX="30" RadiusY="30" VerticalAlignment="Top" Width="670"/>
+            <Rectangle HorizontalAlignment="Left" Height="120" Margin="29,716,0,0" Fill="#D9D9D9" RadiusX="30" RadiusY="30" VerticalAlignment="Top" Width="670"/>
+            <Rectangle HorizontalAlignment="Left" Height="120" Margin="29,856,0,0" Fill="#D9D9D9" RadiusX="30" RadiusY="30" VerticalAlignment="Top" Width="670"/>
+            <Rectangle HorizontalAlignment="Left" Height="120" Margin="29,996,0,0" Fill="#D9D9D9" RadiusX="30" RadiusY="30" VerticalAlignment="Top" Width="670"/>
+            <Grid>
+                <Rectangle HorizontalAlignment="Left" Margin="567,328,0,0" Fill="#A5A5A5" RadiusX="28" RadiusY="28" VerticalAlignment="Top" Width="100" Height="56"/>
+                <Rectangle HorizontalAlignment="Left" Height="50" Margin="570,331,0,0" Fill="#FF0000" RadiusX="25" RadiusY="25" VerticalAlignment="Top" Width="50"/>
+            </Grid>
+            <Grid>
+                <Rectangle HorizontalAlignment="Left" Margin="567,888,0,0" Fill="#A5A5A5" RadiusX="28" RadiusY="28" VerticalAlignment="Top" Width="100" Height="56"/>
+                <Rectangle HorizontalAlignment="Left" Height="50" Margin="570,891,0,0" Fill="#FF0000" RadiusX="25" RadiusY="25" VerticalAlignment="Top" Width="50"/>
+            </Grid>
+            <Grid/>
+            <Grid/>
+            <Grid Margin="6,21,-6,-21">
+                <Rectangle HorizontalAlignment="Left" Margin="561,447,0,0" Fill="#A5A5A5" RadiusX="28" RadiusY="28" VerticalAlignment="Top" Width="100" Height="56"/>
+                <Rectangle HorizontalAlignment="Left" Height="50" Margin="564,450,0,0" Fill="#FF0000" RadiusX="25" RadiusY="25" VerticalAlignment="Top" Width="50"/>
+                <Rectangle HorizontalAlignment="Left" Margin="561,586,0,0" Fill="#A5A5A5" RadiusX="28" RadiusY="28" VerticalAlignment="Top" Width="100" Height="56"/>
+                <Rectangle HorizontalAlignment="Left" Height="50" Margin="564,589,0,0" Fill="#FF0000" RadiusX="25" RadiusY="25" VerticalAlignment="Top" Width="49"/>
+                <Rectangle HorizontalAlignment="Left" Margin="561,728,0,0" Fill="#A5A5A5" RadiusX="28" RadiusY="28" VerticalAlignment="Top" Width="100" Height="56"/>
+                <Rectangle HorizontalAlignment="Left" Height="50" Margin="564,731,0,0" Fill="#FF0000" RadiusX="25" RadiusY="25" VerticalAlignment="Top" Width="50"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
